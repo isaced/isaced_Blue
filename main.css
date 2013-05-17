@@ -1,0 +1,148 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body { margin: 0px; padding: 0; background: #B9B99D url(images/img01.jpg) repeat-x left top; font-family: 'Century Gothic', 'Microsoft YaHei', Verdana; font-size: 12px; color: #464646; }
+h1, h2 { margin: 0; font-weight: normal; color: #549900; }
+h1 { font-size: 44px; }
+h2 { font-size: 18px; }
+p, ul, ol { margin-top: 0; line-height: 240%; text-align: justify; }
+a { color: #238EC6;  text-decoration: none;}
+a:hover { color:#393}
+a img { border: none; }
+img.left { float: left; margin: 7px 30px 0 0; }
+img.right { float: right; margin: 7px 0 0 30px; }
+hr { display: none; }
+.list1 li { float: left; line-height: normal; }
+.list1 li img { margin: 0 30px 30px 0; }
+.list1 li.alt img { margin-right: 0; }
+/* Header */
+
+#header { width: 980px; height: 60px; margin: 0 auto; padding: 0px; }
+#rss { background-image: url(images/rss.png); width: 64px; height: 64px; display: block; margin-left: 800px; margin-top: -25px; }
+/** LOGO */
+
+#logo { width: 940px; height: 110px; margin: 0 auto; padding: 30px 20px 0px 20px; }
+#logo h1, #logo p { margin: 0px; line-height: normal; font-weight: normal; color: #FFFFFF; }
+#logo p {font-size: 13px; color: #F6F9FB; }
+#logo h1 { font-size: 48px; }
+#logo h1 a { text-decoration: none; color: #FFFFFF; }
+/* Menu */
+
+#menu { float: left; height: 60px; }
+#menu ul { margin: 0; padding: 0px; list-style: none; line-height: normal; }
+#menu li { display: block; float: left; }
+#menu a { -webkit-transition: background .3s;-moz-transition: background .3s;-o-transition: background .3s;transition: background .3s;border-radius: 0px;display: block; float: left; height: 32px; margin-top:10px; padding: 5px 20px 0px 20px; letter-spacing: -1px; text-decoration: none; text-align: center;; font-size: 18px; font-weight: normal; color: #FFFFFF; }
+#menu a:hover { text-decoration: none; background-color:#3C96CC;}
+/* Search */
+
+#search { float: right; width: 240px; padding: 10px 20px 0px 0px; }
+#search form { float: right; margin: 0; padding: 4px 0px 0 0; }
+#search input { float: left; font: 12px "微软雅黑", Georgia, "Times New Roman", Times, serif; }
+#search-text { width: 150px; height: 20px; padding-left: 5px; border: none; background: #EFEFDF; color: #000; }
+#search-submit { height: 21px; margin-left: 10px; padding: 0px 5px; background: #98CA2E; border: none; color: #FFFFFF; }
+/* Page */
+#page { width: 1000px; margin: 0 auto; padding: 20px 20px 0px 20px;}
+/* Content */
+#content { float: left; width: 685px; margin-bottom: 10px; }
+/* your postion*/
+#yourpos { width: 100%; margin-bottom: 10px; padding: 5px 5px 5px 20px; background: #FFFFFF; }
+/* Post */
+.post { width: 100%; margin-bottom: 10px; padding: 20px 5px 5px 20px; background: #FFFFFF; }
+.post .title,.post .title a { height: 44px; letter-spacing: -1px; text-decoration: none; font-size: 24px; color: #238EC6; }
+.post .title a:hover{ color:#393}
+.post .meta {height: 32px; margin-top: -10px; padding: 5px 0px 6px 0px; background: url(images/img04.jpg) repeat-x left bottom; font-weight: normal; font-size: 10px; color: #66665E; }
+.post .meta span { display: block; margin-top: -10px; }
+.post .entry { padding: 10px 20px; }
+.post .comments { display: block; width: 120px; height: 18px; margin: 0px; padding: 3px 0px 0px 40px; background: #90BF35; border: 1px solid #5F817E; text-decoration: none; font-size: 11px; text-decoration: none; font-weight: bold; color: #FFFFFF; }
+/* nextlog */
+#postbottom { border-bottom: #D5D5D5 dashed 1px; height: 20px; margin-top:10px; }
+#nextlog { float: left; width:100%; margin-bottom:10px;}
+
+/* post entry  */
+h3{ border:#E1E1E1 solid 1px; font-size:20; background-color:#F9F9F9; padding-left:8px; padding-top:3px;color:#238EC6; height:25px; margin-left:-10px}
+
+    /* comment*/
+    .comment-header { margin-left: 20px; margin-top: 10px; font-size: 15px; border-bottom: #D5D5D5 dashed 1px; }
+    .post .comment-header { margin: 20px 0px 5px 0px }
+    .post .comment-post { clear: both; }
+    .post .comment-post p { margin: 5px 0px }
+    .post .comment-post .cancel-reply { float: right; font-size: 12px; cursor: pointer; _cursor: hand; padding-right: 10% }
+    .post .comment-post .cancel-reply:hover { text-decoration: underline }
+    .post .comment-post .post { width: 90%; border: 1px #b6b6b6 solid; font-size: 12px; color: #333 }
+    .post .comment { margin: 10px 0; padding: 10px 0px; font-size: 12px; border-bottom: 1px #f7f7f7 solid; overflow: hidden; color: #333; height: 100%; zoom: 1 }
+    .post .comment .comment-time { color: #999999; font-size: 9px; }
+    .post .comment .avatar { float: left; margin: 5px }
+    .post .comment .comment-info { float: left; width: 90% }
+    .post .comment .comment-content { margin: 8px 0px 0px 0px; }
+    .post .comment .comment-reply { float: right; font-size: 12px; cursor: pointer; _cursor: hand; }
+    .post .comment-children { width: 95%; margin: auto; clear: both; border: none; padding: 0 }
+    .post .comment .comment-post { width: 90%; margin: 15px auto }
+    .post .comment-post #commentform { border: #eee solid 3px; background-color: #F9F9F9; padding-top: 10px; }
+    .post .comment-post .comment-txt { float: left; margin-left: 60px; margin-right: 10px; }
+    .post .comment-post .comment-txt textarea { border: solid 1px #E5E5E5; width: 350px; height: 140px; padding: 5px; border: solid 1px #E5E5E5; background: #FFFFFF; display: block; font-size: 12px; background: -webkit-gradient( linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF) ); background: -moz-linear-gradient( top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px ); -moz-box-shadow: 0px 0px 8px #f0f0f0; -webkit-box-shadow: 0px 0px 8px #f0f0f0; box-shadow: 0px 0px 8px #f0f0f0; }
+    .post .comment-post .comment-info { }
+    .post .comment-post small { font-size: 12px; color: #999; float: left; }
+    .post .comment-post input { padding: 1px; border: solid 1px #E5E5E5; background: #FFFFFF; display: block; font-size: 12px; background: -webkit-gradient( linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF) ); background: -moz-linear-gradient( top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px ); -moz-box-shadow: 0px 0px 8px #f0f0f0; -webkit-box-shadow: 0px 0px 8px #f0f0f0; box-shadow: 0px 0px 8px #f0f0f0; width: 200px; height: 35px; }
+    .post .comment-post .btn { width: 580px; margin: 0 auto }
+	
+
+	
+/* navigation */
+a{ -webkit-transition: color .3s;-moz-transition: color .3s;-o-transition: color .3s;transition: color .3s;}
+#navigation { padding:8px 0;text-align:center;font-size: 13px;line-height:18px; }
+#navigation a,#navigation span{border: 1px solid #eee;text-decoration: none;background: #5080D8;color: #fff;text-shadow: 0px -1px rgba(0, 0, 0, 0.2);display:inline-block;margin:2px;padding:1px;padding: 4px 9px;}
+#navigation a:hover,#navigation span { text-decoration: none;background: #f9f9f9;color: #5080D8;}
+
+/* Sidebar */
+#sidebar { float: right; width: 280px; font-size: 12px;}
+#sidebar ul { margin: 0; padding: 0; list-style: none; line-height: normal; border: none; }
+#sidebar li { margin-bottom: 10px; padding: 6px 0px 5px 0px; background: #FFFFFF; }
+#sidebar h2 { height: 32px; padding: 0px 0 10px 15px; background: url(images/img03.jpg) repeat-x left  bottom; font-size: 24px; font-weight: normal; color: #238EC6; }
+#sidebar li li { margin: 0; margin-right:8px; padding: 6px 0px; border: none; background: url(images/img06.jpg) repeat-x left bottom; }
+/*sidebar子项*/
+#sidebar li li a { color:#666; padding: 0px 0px 0px 30px; font-weight: normal;  background: url(images/img07.jpg) no-repeat 15px 4px}
+#sidebar li li a:hover{ color:#238EC6}
+/*sidebar 更多链接*/
+#sidebar p { height: 5px; padding-top: 10px; padding-left: 230px;  line-height: 200%; }
+/*sidebar 标题*/
+
+
+/*sidebar 文本*/
+#sidebar li .textwidget { margin-left: 5%; }
+/* Calendar */
+#calendar { margin-left: 5%; }
+.calendartop { text-align: center; font-size: 14px; margin-left: 70px; }
+.calendar { color: #555; width: 95%; text-align: center; }
+.day { background: url(images/bg_cal_today.gif) no-repeat 8px 1px }
+.sun, .week { background: #f4f4f4; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+
+/* Footer */
+
+#footer { height: 60px; background: #323232 url(images/img02.jpg) repeat-x left top; }
+#footer p { padding-top: 20px; text-align: center; font-size: 10px; color: #666; }
+#footer p a{color:#999}
+#footer p a:hover{color:#CCC}
+
+
+
+
+/* Go To Top*/
+
+#gototop{
+      position:fixed;
+      bottom:50px;
+      right:50px;
+      z-index: 9999;
+}
+#gototop a{
+      background: url(images/gototop.png) no-repeat center center;
+      display:block;
+      height:56px;
+      width:56px;
+      margin-bottom:5px;
+      text-indent: -99999px;
+      /*使用CSS3中的transition属性给<span>标签背景颜色添加渐变效果*/
+      -moz-transition:background 0.5s;
+      -webkit-transition:background 0.5s;
+      -o-transition:background 0.5s;
+}
